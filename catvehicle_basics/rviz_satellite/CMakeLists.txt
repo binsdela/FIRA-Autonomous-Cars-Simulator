@@ -5,7 +5,7 @@ set(DISTRO $ENV{ROS_DISTRO})
 message(STATUS "Distribution: " ${DISTRO})
 
 set(DEFAULT_BUILD_QT5 OFF)
-if(${DISTRO} STREQUAL "kinetic")
+if(${DISTRO} STREQUAL "noetic")
     set(DEFAULT_BUILD_QT5 ON)
 endif()
 
@@ -14,7 +14,7 @@ option(UseQt5 "Build w/ QT version 5" ${DEFAULT_BUILD_QT5})
 if (UseQt5)
 	find_package(Qt5 COMPONENTS Core Gui Network Concurrent REQUIRED)
 else()
-	find_package(Qt4 COMPONENTS QtCore QtGui QtNetwork REQUIRED)
+	find_package(Qt5 COMPONENTS QtCore QtGui QtNetwork REQUIRED)
 	include(${QT_USE_FILE})
 endif()
 
