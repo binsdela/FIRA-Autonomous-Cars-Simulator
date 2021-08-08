@@ -5,6 +5,7 @@ The instructions necessary for getting started is available below.
 
 ## Updated for ROS NOETIC
 ### *** THIS VERISION IS UNSTABLE!!!
+YOU NEED TO FOLLOW ALL INSTRUCTIONS IN `packages.txt`
 
 ### Changelog
 ## 1.0.2
