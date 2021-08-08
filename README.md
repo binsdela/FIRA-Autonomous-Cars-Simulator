@@ -3,6 +3,9 @@ FIRA Autonomous Cars Simulator for FIRARoboWorldCup Competition.
 The instructions necessary for getting started is available below.
 
 
+## Updated for ROS NOETIC
+### *** THIS VERISION IS UNSTABLE!!!
+
 ### Changelog
 ## 1.0.2
   - Removed ground plane from race track world
