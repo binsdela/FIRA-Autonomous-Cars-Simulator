@@ -66,7 +66,7 @@ if (UseQt5)
 		)
 else()
 	qt4_wrap_cpp(${PROJECT_NAME}_MOCSrcs ${${PROJECT_NAME}_HEADERS})
-	include_directories(${Qt4_INCLUDE_DIR})
+	include_directories(${Qt5_INCLUDE_DIR})
 	link_libraries(
   		${QT_LIBRARIES}
 		)
