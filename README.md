@@ -4,7 +4,7 @@ The instructions necessary for getting started is available below.
 
 
 ## Updated for ROS NOETIC
-### *** THIS VERISION IS UNSTABLE!!!
+### *** THIS VERISION IS STABLE!!!
 
 ### Changelog
 ## 1.0.2
